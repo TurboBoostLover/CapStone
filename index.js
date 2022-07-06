@@ -4,7 +4,7 @@ const message = document.querySelector('#message')
 const email = document.querySelector('#email')
 const number = document.querySelector('#number')
 const name = document.querySelector('#name')
-const submit = document.querySelector('submit')
+const submit = document.querySelector('#submit')
 
 const see = () => {
     window.location.href=("https://capstonef24.herokuapp.com/buy")
