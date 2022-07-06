@@ -15,18 +15,18 @@ const homes = () => {
 }
 
 const contact = () => {
-    event.preventDefault()
-    const name = name.value
-    const number = number.value
-    const email = email.value
-    const message = message.value
-    /*const theBody = {
-        name: name,
-        number: number,
-        email: email,
-        message: message
-    }*/
-    console.log(`${name} it has sent!`)
+    // event.preventDefault()
+    // const name = name.value
+    // const number = number.value
+    // const email = email.value
+    // const message = message.value
+    // /*const theBody = {
+    //     name: name,
+    //     number: number,
+    //     email: email,
+    //     message: message
+    // }*/
+    console.log('test')
 }
 
 
