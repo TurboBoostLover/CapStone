@@ -26,7 +26,7 @@ const contact = (event) => {
         email: emailv,
         message: messagev
     }
-    axios.post("https://capstonef24.herokuapp.com/api/message", theBody)
+    axios.post("https://capstonef24.herokuapp.com/message", theBody)
     .then((response) => {
         if(response.data.success) {
             alert(`${namev} it has been sent!`)

@@ -32,7 +32,7 @@ app.get('/selling', (req, res) => {
 })
 
 const {message} = require('./controller')
-app.get("/api/message", message);
+app.post("/message", message);
 
 
 
