@@ -233,3 +233,15 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
 50% { background-color: #3a3;}
 100% { background-color: #6a6a6a;}
 }
+
+#seehomes {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    overflow: auto;
+    min-height: 0px;
+    width: 20%;
+    height: 45%;
+    margin: 5%;
+}
