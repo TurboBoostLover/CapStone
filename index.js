@@ -4,7 +4,7 @@ const message = document.querySelector('#message')
 const email = document.querySelector('#email')
 const number = document.querySelector('#number')
 const name = document.querySelector('#name')
-const submit = document.querySelector('#submit')
+const formElement = document.getElementById("nameForm")
 
 const see = () => {
     window.location.href=("https://capstonef24.herokuapp.com/buy")
@@ -14,8 +14,8 @@ const homes = () => {
     window.location.href=("https://capstonef24.herokuapp.com/selling")
 }
 
-const contact = () => {
-    // event.preventDefault()
+const contact = (event) => {
+     event.preventDefault()
     // const name = name.value
     // const number = number.value
     // const email = email.value
@@ -30,6 +30,6 @@ const contact = () => {
 }
 
 
-submit.addEventListener('submit', contact)
+formElement.addEventListener('submit', contact)
 list.addEventListener('click', homes)
 view.addEventListener('click', see)
