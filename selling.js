@@ -55,7 +55,7 @@ const nate = (event) => {
     bio: tell2,
     price: price2
     }
-    axios.post("https://capstonef24.herokuapp.com/homes", guess)
+    axios.post("https://capstonef24.herokuapp.com/home", guess)
     .then((response) => {
         if(response.data.success) {
             alert(`It has been added! Go to home listings to see.`)
