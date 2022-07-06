@@ -65,11 +65,11 @@ const homesdata = [
         price:'10,000,000' 
     },
     {
-        beds: '',
-        baths: '',
-        sq_ft: '',
-        aceage: '' ,
-        bio:'' ,
-        price:'' 
+        beds: '150',
+        baths: '155',
+        sq_ft: '25,000',
+        aceage: '5' ,
+        bio:'Hotel' ,
+        price:'50,000,000' 
     },
 ]
