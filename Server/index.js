@@ -19,6 +19,18 @@ app.get('/js', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.js'))
 })
 
+app.get('/js2', (req, res) => {
+    res.sendFile(path.join(__dirname, '../about.js'))
+})
+
+app.get('/js3', (req, res) => {
+    res.sendFile(path.join(__dirname, '../list.js'))
+})
+
+app.get('/js4', (req, res) => {
+    res.sendFile(path.join(__dirname, '../selling.js'))
+})
+
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, '../about.html'))
 })

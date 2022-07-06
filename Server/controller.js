@@ -3,7 +3,7 @@ module.exports = {
     message: (req, res) => {
         database.push(req.body)
         console.log(database)
-        res.status(200).send({success: true}, database)
+        res.status(200).send({success: true})
         }
 }
 
