@@ -38,7 +38,7 @@ const populate = () => {
     .then((res) => {
         console.log(res.data[0])
         let listings = document.createElement("h2")
-        listings.textContent = (res.data)
+        listings.textContent = (res.data[0])
         document.body.append(listings)
     })
 }
