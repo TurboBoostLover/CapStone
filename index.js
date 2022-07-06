@@ -12,5 +12,5 @@ const homes = () => {
 
 
 
-
+list.addEventListener('click', homes)
 view.addEventListener('click', see)
