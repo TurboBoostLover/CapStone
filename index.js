@@ -30,6 +30,6 @@ const contact = (event) => {
 }
 
 
-submit.addEventListener('click', contact)
+submit.addEventListener('submit', contact)
 list.addEventListener('click', homes)
 view.addEventListener('click', see)
