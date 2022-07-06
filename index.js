@@ -16,17 +16,17 @@ const homes = () => {
 
 const contact = (event) => {
      event.preventDefault()
-    // const name = name.value
-    // const number = number.value
-    // const email = email.value
-    // const message = message.value
-    // /*const theBody = {
-    //     name: name,
-    //     number: number,
-    //     email: email,
-    //     message: message
-    // }*/
-    console.log('test')
+    const name = name.value
+    const number = number.value
+    const email = email.value
+    const message = message.value
+    /*const theBody = {
+        name: name,
+        number: number,
+        email: email,
+        message: message
+    }*/
+    alert(`${name} it has been sent!`)
 }
 
 
