@@ -26,7 +26,7 @@ const contact = (event) => {
         email: email,
         message: message
     }*/
-    alert(`${name} it has sent!`)
+    console.log(`${name} it has sent!`)
 }
 
 
