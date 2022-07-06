@@ -253,4 +253,8 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     width: 80%;
     height: 15%;
     margin: 5%;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
 }
