@@ -31,6 +31,14 @@ app.get('/selling', (req, res) => {
     res.sendFile(path.join(__dirname, '../selling.html'))
 })
 
+
+
+
+
+
+
+
+
 const port = process.env.PORT || 6900
 
 app.listen(port, () => {
