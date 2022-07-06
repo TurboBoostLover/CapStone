@@ -3,7 +3,7 @@ const list = document.querySelector('#list')
 const message = document.querySelector('#message')
 const email = document.querySelector('#email')
 const number = document.querySelector('#number')
-const name = document.querySelector('#name')
+const namet = document.querySelector('#name')
 const formElement = document.getElementById("nameForm")
 
 const see = () => {
@@ -16,17 +16,21 @@ const homes = () => {
 
 const contact = (event) => {
      event.preventDefault()
-    // const name = name.value
-    // const number = number.value
-    // const email = email.value
-    // const message = message.value
-    /*const theBody = {
-        name: name,
-        number: number,
-        email: email,
-        message: message
-    }*/
-    alert('It has been sent!')
+     const namev = namet.value
+     const numberv = number.value
+     const emailv = email.value
+     const messagev = message.value
+    // const theBody = {
+    //     name: namev,
+    //     number: numberv,
+    //     email: emailv,
+    //     message: messagev
+    // }
+    alert(`${namev} it has been sent!`)
+    namet.value = ''
+    number.value = ''
+    email.value = ''
+    message.value = ''
 };
 
 
