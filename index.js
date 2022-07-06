@@ -14,7 +14,7 @@ const homes = () => {
     window.location.href=("https://capstonef24.herokuapp.com/selling")
 }
 
-const contact = (event) => {
+const contact = () => {
     event.preventDefault()
     const name = name.value
     const number = number.value
