@@ -242,3 +242,15 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
   padding: 3%;
   margin: 5%;
 }
+
+.housing {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    overflow: auto;
+    min-height: 0px;
+    width: 20%;
+    height: 45%;
+    margin: 5%;
+}
