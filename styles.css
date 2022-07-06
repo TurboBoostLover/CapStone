@@ -244,13 +244,13 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
 }
 
 .housing {
-  display: flex;
+  display: grid;
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
     overflow: auto;
     min-height: 0px;
-    width: 20%;
-    height: 45%;
+    width: 50%;
+    height: 35%;
     margin: 5%;
 }
