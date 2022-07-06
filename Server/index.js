@@ -31,7 +31,8 @@ app.get('/selling', (req, res) => {
     res.sendFile(path.join(__dirname, '../selling.html'))
 })
 
-
+const {message} = require('./controller')
+app.get("/api/message", message);
 
 
 

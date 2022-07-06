@@ -20,13 +20,20 @@ const contact = (event) => {
      const numberv = number.value
      const emailv = email.value
      const messagev = message.value
-    // const theBody = {
-    //     name: namev,
-    //     number: numberv,
-    //     email: emailv,
-    //     message: messagev
-    // }
-    alert(`${namev} it has been sent!`)
+    const theBody = {
+        name: namev,
+        number: numberv,
+        email: emailv,
+        message: messagev
+    }
+    axios.post("https://capstonef24.herokuapp.com/api/message", theBody)
+    .then((response) => {
+        if(response.data.success) {
+            alert(`${namev} it has been sent!`)
+        } else {
+            alert('fail')
+        }
+    })
     namet.value = ''
     number.value = ''
     email.value = ''
