@@ -20,13 +20,13 @@ const contact = (event) => {
     const number = number.value
     const email = email.value
     const message = message.value
-    const theBody = {
+    /*const theBody = {
         name: name,
         number: number,
         email: email,
         message: message
-    }
-    alert(theBody)
+    }*/
+    alert(`${name} it has sent!`)
 }
 
 
