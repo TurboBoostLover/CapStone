@@ -45,7 +45,7 @@ app.get('/selling', (req, res) => {
 
 const {message, homes} = require('./controller')
 app.post("/message", message);
-app.post("/homes", homes)
+app.post("/homes", homes);
 
 
 

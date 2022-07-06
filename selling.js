@@ -53,8 +53,8 @@ const nate = (event) => {
     sq_ft: ft2,
     aceage: ace2,
     bio: tell2,
-    price: price2}
-
+    price: price2
+    }
     axios.post("https://capstonef24.herokuapp.com/homes", guess)
     .then((response) => {
         if(response.data.success) {
