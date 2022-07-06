@@ -43,8 +43,9 @@ app.get('/selling', (req, res) => {
     res.sendFile(path.join(__dirname, '../selling.html'))
 })
 
-const {message} = require('./controller')
+const {message, homes} = require('./controller')
 app.post("/message", message);
+app.post("/homes", homes)
 
 
 
