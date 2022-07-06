@@ -35,7 +35,11 @@ const seeAll = document.querySelector('#seehomes')
 
 const populate = () => {
     axios.get("https://capstonef24.herokuapp.com/homesForSale")
-    .then(alert('worked so far'))
+    .then((res) => {
+        let listings = document.createElement("h2")
+        listings.textContent = (res.data)
+        document.body.append(listings)
+    })
 }
 
 seeAll.addEventListener('click', populate)
