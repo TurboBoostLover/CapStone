@@ -250,7 +250,7 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     flex-flow: column nowrap;
     overflow: auto;
     min-height: 0px;
-    width: 50%;
-    height: 35%;
+    width: 80%;
+    height: 15%;
     margin: 5%;
 }
