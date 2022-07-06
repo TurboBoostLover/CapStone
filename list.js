@@ -35,11 +35,14 @@ const seeAll = document.querySelector('#seehomes')
 
 const populate = () => {
     axios.get("https://capstonef24.herokuapp.com/homesForSale")
-    .then((res) => {
-        console.log(res.data[0])
-        let listings = document.createElement("h2")
-        listings.textContent = (res.data[0])
-        document.body.append(listings)
+    .then(res => {
+        res.data.forEach(elem => {
+            let housing = `<div class="housing">
+                <h2>${elem.beds}, ${elem.baths}, ${elem.sq_ft}
+                ${elem.aceage}, ${elem.bio}, ${elem.price}</h2>
+                </div>`
+            housingList.innerHTML += housing
+        })
     })
 }
 
