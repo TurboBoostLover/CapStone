@@ -30,7 +30,7 @@ const contact = (event) => {
     .then((response) => {
         if(response.data.success) {
             alert(`${namev} it has been sent!`)
-            console.log(theBody)
+            console.log(response.data)
         } else {
             alert('fail')
         }
