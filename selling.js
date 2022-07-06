@@ -58,7 +58,7 @@ const nate = (event) => {
     axios.post("https://capstonef24.herokuapp.com/homes", theBody2)
     .then((response) => {
         if(response.data.success) {
-            alert(`It has been added! Go to home listings to see.`)
+            alert(`It would of been added if you went to a real relator...`)
             console.log(response.data)
         } else {
             alert('fail')
