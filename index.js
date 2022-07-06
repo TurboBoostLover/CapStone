@@ -8,26 +8,26 @@ const formElement = document.getElementById("nameForm")
 
 const see = () => {
     window.location.href=("https://capstonef24.herokuapp.com/buy")
-}
+};
 
 const homes = () => {
     window.location.href=("https://capstonef24.herokuapp.com/selling")
-}
+};
 
 const contact = (event) => {
      event.preventDefault()
-    const name = name.value
-    const number = number.value
-    const email = email.value
-    const message = message.value
+    // const name = name.value
+    // const number = number.value
+    // const email = email.value
+    // const message = message.value
     /*const theBody = {
         name: name,
         number: number,
         email: email,
         message: message
     }*/
-    alert(`${name} it has been sent!`)
-}
+    alert('It has been sent!')
+};
 
 
 formElement.addEventListener('submit', contact)
