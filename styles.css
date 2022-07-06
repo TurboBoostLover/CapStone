@@ -239,5 +239,6 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
   width: 5%;
   background-color: black;
   color: white;
-  padding-top: 2%;
+  padding: 5%;
+  margin: 5%;
 }
