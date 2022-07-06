@@ -31,5 +31,12 @@ const contact = (event) => {
    message.value = ''
 };
 
+const seeAll = document.querySelector('#seehomes')
+
+const populate = () => {
+    axios.get("https://capstonef24.herokuapp.com/homesForSale")
+    .then(alert('worked so far'))
+}
+
 
 formElement.addEventListener('submit', contact)

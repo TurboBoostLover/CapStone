@@ -8,6 +8,9 @@ module.exports = {
         homesdata.push(req.body)
         res.status(200).send({success: true})
         },
+    gethomes: (req, res) => {
+        res.status(200).send(homesdata)
+    }
 
 }
 
