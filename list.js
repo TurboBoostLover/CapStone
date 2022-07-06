@@ -38,5 +38,5 @@ const populate = () => {
     .then(alert('worked so far'))
 }
 
-
+seeAll.addEventListener('click', populate)
 formElement.addEventListener('submit', contact)
