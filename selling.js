@@ -47,15 +47,15 @@ const nate = (event) => {
     const ace2 = ace1.value
     const tell2 = tell1.value
     const price2 = price1.value
-    const guess = {
-    beds: bed2,
-    baths: bath2,
-    sq_ft: ft2,
-    aceage: ace2,
-    bio: tell2,
-    price: price2
-    }
-    axios.post("https://capstonef24.herokuapp.com/home", guess)
+    const theBody2 = {
+        beds: bed2,
+         baths: bath2,
+         sq_ft: ft2,
+         aceage: ace2,
+         bio: tell2,
+         price: price2
+         }
+    axios.post("https://capstonef24.herokuapp.com/homes", theBody2)
     .then((response) => {
         if(response.data.success) {
             alert(`It has been added! Go to home listings to see.`)
