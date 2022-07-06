@@ -37,7 +37,7 @@ const ft1 = document.querySelector('#ft')
 const ace1 = document.querySelector('#ace')
 const tell1 = document.querySelector('#tell')
 const price1 = document.querySelector('#price')
-const formElement2 = document.getElementById('home')
+const formElement2 = document.getElementById('houses')
 
 const nate = (event) => {
     event.preventDefault()
