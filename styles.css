@@ -276,6 +276,7 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     font-style: italic;
     font-size: large;
     font-weight: bolder;
+    width: 50%;
 }
 
 h5 {
