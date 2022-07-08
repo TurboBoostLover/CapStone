@@ -5,7 +5,7 @@ module.exports = {
         res.status(200).send({success: true})
         },
      homes: (req, res) => {
-        res.status(200).send({success: true}).send(req.body)
+        res.status(200).send({success: true})
         },
     gethomes: (req, res) => {
         res.status(200).send(homesdata)

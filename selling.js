@@ -59,13 +59,7 @@ const nate = (event) => {
     .then((response) => {
         if(response.data.success) {
             alert(`It would of been added if you went to a real relator...`)
-            response.data.forEach(elem => {
-                let housing = `<div class="housing">
-                    <h2>Bed Rooms: ${elem.beds} ,  Bath Rooms: ${elem.baths} ,  Square Feet: ${elem.sq_ft} ,
-                      Aceage: ${elem.aceage} ,  About this house: ${elem.bio} ,  Price: ${elem.price}</h2>
-                    </div>`
-                housingList.innerHTML += housing
-            })
+            console.log(response.data)
         } else {
             alert('fail')
         }
