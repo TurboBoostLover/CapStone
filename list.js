@@ -38,8 +38,8 @@ const populate = () => {
     .then(res => {
         res.data.forEach(elem => {
             let housing = `<div class="housing">
-                <h2>Bed Rooms: ${elem.beds} ,  Bath Rooms: ${elem.baths} ,  Square Feet: ${elem.sq_ft} ,
-                  Aceage: ${elem.aceage} ,  About this house: ${elem.bio} ,  Price: ${elem.price}</h2>
+                <h2>Bed Rooms: ${elem.beds}<br>Bath Rooms: ${elem.baths}<br>Square Feet: ${elem.sq_ft}<br>
+                Aceage: ${elem.aceage}<br>About this house: ${elem.bio}<br>Price: ${elem.price}</h2>
                 </div>`
             housingList.innerHTML += housing
         })
