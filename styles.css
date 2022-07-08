@@ -101,6 +101,8 @@ body {
   top: 20%;
   word-wrap: normal;
   width: 50%;
+  font-size:x-large;
+  font-style: italic;
 }
 
 .hyper {
