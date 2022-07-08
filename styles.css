@@ -102,6 +102,9 @@ body {
   left: 40%;
   padding: 5%;
   margin: 2%;
+  border-radius: 50%;
+  background-color: red;
+  font-size: large;
 }
 
 #list {
@@ -113,6 +116,9 @@ body {
   left: 40%;
   padding: 5%;
   margin: 2%;
+  border-radius: 50%;
+  background-color: red;
+  font-size: large;
 }
 
 
