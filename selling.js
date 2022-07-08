@@ -57,6 +57,7 @@ const nate = (event) => {
     .then((response) => {
         if(response.data.success) { 
             alert('It sent!')
+            console.log(response.data)
         }else {alert('failed.')
             console.log(response.data)
         } 
