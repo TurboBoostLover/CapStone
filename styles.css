@@ -278,3 +278,9 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     font-size: large;
     font-weight: bolder;
 }
+
+form {
+  font-size: x-large;
+  font-style: italic;
+  background-color: red;
+}
