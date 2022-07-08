@@ -48,21 +48,6 @@ app.post("/message", message)
 app.post("/homes", homes)
 app.get("/homesForSale", gethomes)
 
-const zillow = document.querySelector('#zillow')
-const realtor = document.querySelector('#realtor')
-
-const address = () => {
-    window.location.href=("https://www.zillow.com/")
-}
-
-const address2 = () => {
-    window.location.href=("https://www.realtor.com/")
-}
-
-zillow.addEventListener('click', address)
-realtor.addEventListener('click', address2)
-
-
 const port = process.env.PORT || 6900
 
 app.listen(port, () => {

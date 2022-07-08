@@ -42,6 +42,22 @@ const contact = (event) => {
 };
 
 
+const zillow = document.querySelector('#zillow')
+const realtor = document.querySelector('#realtor')
+
+const address = () => {
+    window.location.href=("https://www.zillow.com/")
+}
+
+const address2 = () => {
+    window.location.href=("https://www.realtor.com/")
+}
+
+zillow.addEventListener('click', address)
+realtor.addEventListener('click', address2)
+
+
+
 formElement.addEventListener('submit', contact)
 list.addEventListener('click', homes)
 view.addEventListener('click', see)
