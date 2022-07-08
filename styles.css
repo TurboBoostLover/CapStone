@@ -255,6 +255,9 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
   padding: 3%;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .housing {
