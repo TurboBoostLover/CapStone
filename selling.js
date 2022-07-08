@@ -56,7 +56,7 @@ const nate = (event) => {
     axios.post("https://capstonef24.herokuapp.com/homes", theBody2)
     .then((response) => {
         if(response.data.success) { 
-            alert('It sent!')
+            alert('We will be in touch soon!')
             console.log(response.data)
         }else {alert('failed.')
             console.log(response.data)
