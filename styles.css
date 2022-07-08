@@ -1,6 +1,6 @@
 h1 {
   font-size: 100px;
-  width: 99.75%;
+  width: 99.7%;
   border: 3px solid black;
   text-align: center;
   background-color: red;
@@ -103,6 +103,7 @@ body {
   width: 50%;
   font-size:xx-large;
   font-style: italic;
+  margin-left: 2%;
 }
 
 .hyper {
