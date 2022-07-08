@@ -279,8 +279,9 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     font-weight: bolder;
 }
 
-form {
-  font-size: x-large;
+h5 {
+  font-size: larger;
   font-style: italic;
   background-color: red;
+  font-weight: bolder;
 }
