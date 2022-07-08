@@ -52,17 +52,16 @@ const nate = (event) => {
          aceage: ace2,
          bio: tell2,
          }
+    if (window.confirm("You want it to send?")){
     axios.post("https://capstonef24.herokuapp.com/homes", theBody2)
     .then((response) => {
-        if(response.data.success) {
-            if (window.confirm("You want it to send?")) {
-            alert(`It sent!`)}
-            else {alert('It was not sent.')}
+        if(response.data.success) { 
+            alert('It sent!')
+        }else {alert('failed.')
             console.log(response.data)
-        } else {
-            alert('fail')
-        }
-    })
+        } 
+    })}
+    else {alert('It was not sent.')}
     bed1.value = ''
     bath1.value = ''
     ft1.value = ''
