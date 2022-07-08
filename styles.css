@@ -271,14 +271,14 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     overflow: auto;
     min-height: 0px;
     height: 15%;
-    margin: 3%;
     background-color: black;
     color: white;
     font-style: italic;
     font-size: large;
     font-weight: bolder;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
 }
 
 h5 {
