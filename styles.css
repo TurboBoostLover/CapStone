@@ -249,13 +249,13 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
   position:relative;
   top: 14%;
   width:fit-content;
-  background-color: black;
+  background-color: red;
   height: 5%;
   margin: 5%;
   padding: 3%;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   font-size: larger;
   font-weight: bolder;
 }
@@ -273,5 +273,6 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
     background-color: black;
     color: white;
     font-style: italic;
-    font-size:large;
+    font-size: large;
+    font-weight: bolder;
 }
