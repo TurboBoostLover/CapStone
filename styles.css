@@ -118,7 +118,7 @@ body {
   align-items: center;
 }
 
-#view ,#list, #zillow, #realtor {
+#view , #zillow, #realtor {
   background-color: black;
   color: white;
   margin: auto;
