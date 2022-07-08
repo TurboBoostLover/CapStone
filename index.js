@@ -6,7 +6,7 @@ const namet = document.querySelector('#name')
 const formElement = document.getElementById("nameForm")
 
 const see = () => {
-    window.location.href=("https://capstonef24.herokuapp.com/buy")
+    window.location.href=("https://www.trulia.com/ID/Idaho_Falls/")
 };
 
 const contact = (event) => {
