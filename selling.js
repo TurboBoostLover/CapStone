@@ -36,7 +36,6 @@ const bath1 = document.querySelector('#bath')
 const ft1 = document.querySelector('#ft')
 const ace1 = document.querySelector('#ace')
 const tell1 = document.querySelector('#tell')
-const price1 = document.querySelector('#price')
 const formElement2 = document.getElementById('houses')
 
 const nate = (event) => {
@@ -46,14 +45,12 @@ const nate = (event) => {
     const ft2 = ft1.value
     const ace2 = ace1.value
     const tell2 = tell1.value
-    const price2 = price1.value
     const theBody2 = {
         beds: bed2,
          baths: bath2,
          sq_ft: ft2,
          aceage: ace2,
          bio: tell2,
-         price: price2
          }
     axios.post("https://capstonef24.herokuapp.com/homes", theBody2)
     .then((response) => {
@@ -69,7 +66,6 @@ const nate = (event) => {
     ft1.value = ''
     ace1.value = ''
     tell1.value = ''
-    price1.value = ''
 };
 
 formElement2.addEventListener('submit', nate)
