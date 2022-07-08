@@ -10,7 +10,7 @@ h1 {
 }
 
 .nav {
-  display: flexbox;
+  display: flex;
   position:relative;
   top: 14%;
   width: 100%;
