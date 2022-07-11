@@ -36,6 +36,7 @@ const seeAll = document.querySelector('#seehomes')
 const populate = () => {
     axios.get("https://capstonef24.herokuapp.com/homesForSale")
     .then(res => {
+        seeAll.disabled = true
         res.data.forEach(elem => {
             let housing = `<div class="housing">
                 <h2>Bed Rooms: ${elem.beds}<br>Bath Rooms: ${elem.baths}<br>Square Feet: ${elem.sq_ft}<br>
