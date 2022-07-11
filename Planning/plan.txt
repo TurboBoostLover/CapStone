@@ -1,0 +1,14 @@
+Name: Shelley Realestate
+
+MVP: Contact card with input form of personal info
+    View Homes for sale from server side file
+    insert a home for sale into server side file
+
+To do list: Create all my html pages and link them together
+            Add everything I need to all the html pages for the format and functionality
+            create the functionality to get between pages and to implement buttons functionality
+            set up one mvp and get it to work properaly and style it onces completed
+            move on and repeat step above
+            make sure all functionality works and styling works
+
+Figma url: https://www.figma.com/file/0TXXXQROzyD103YsqzonOY/Untitled?node-id=0%3A1
