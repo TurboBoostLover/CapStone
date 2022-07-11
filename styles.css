@@ -249,7 +249,7 @@ animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
 #seehomes {
   display: flex;
   position:relative;
-  top: 14%;
+  top: 10%;
   width:fit-content;
   background-color: red;
   height: 5%;
