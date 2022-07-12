@@ -155,7 +155,7 @@ top: 9px;
 left: 8px;
 right: 8px;
 bottom: 8px;
-background: url(http://boutique.flarework.com/wp-content/themes/boutique/img/logo_large.png) center 0px no-repeat ;
+background: center 0px no-repeat ;
   background-size: contain;
   -webkit-filter: drop-shadow(0px 6px 25px rgba(0,0,0,0.5));
 }
