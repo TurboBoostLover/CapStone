@@ -1,33 +1,7 @@
-var nodemailer = require('nodemailer');
-
-var transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: 'natew2949@gmail.com',
-      pass: 'articcatM6'
-    }
-  });
-
 module.exports = {
 
     message: (req, res) => {
         database.push(req.body)
-
-          var mailOptions = {
-            from: 'm800mazdarx8@gmail.com',
-            to: 'natew2949@gmail.com',
-            subject: 'Requesting Contact',
-            text: `${database}`
-          };
-          
-          transporter.sendMail(mailOptions, function(error, info){
-            if (error) {
-              console.log(error);
-            } else {
-              console.log('Email sent: ' + info.response);
-            }
-          });
-
           res.status(200).send({success: true})
 
         },
