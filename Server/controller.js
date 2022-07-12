@@ -11,7 +11,6 @@ module.exports = {
     gethomes: (req, res) => {
         res.status(200).send(homesdata)
     },
-
 }
 
 const database = [
