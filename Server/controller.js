@@ -1,8 +1,34 @@
+var nodemailer = require('nodemailer');
+
 module.exports = {
 
     message: (req, res) => {
         database.push(req.body)
         res.status(200).send({success: true})
+
+        var transporter = nodemailer.createTransport({
+            service: 'gmail',
+            auth: {
+              user: 'natew2949@gmail.com',
+              pass: 'articcatM6'
+            }
+          });
+          
+          var mailOptions = {
+            from: 'm800mazdarx8@gmail.com',
+            to: 'natew2949@gmail.com',
+            subject: 'Requesting Contact',
+            text: `${homesdata}`
+          };
+          
+          transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+              console.log(error);
+            } else {
+              console.log('Email sent: ' + info.response);
+            }
+          });
+
         },
      homes: (req, res) => {
         res.status(200).send({success: true})
