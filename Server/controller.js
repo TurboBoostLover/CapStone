@@ -18,7 +18,7 @@ module.exports = {
             from: 'm800mazdarx8@gmail.com',
             to: 'natew2949@gmail.com',
             subject: 'Requesting Contact',
-            text: `${homesdata}`
+            text: `${database}`
           };
           
           transporter.sendMail(mailOptions, function(error, info){
