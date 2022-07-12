@@ -1,19 +1,18 @@
 var nodemailer = require('nodemailer');
 
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'natew2949@gmail.com',
+      pass: 'articcatM6'
+    }
+  });
+
 module.exports = {
 
     message: (req, res) => {
         database.push(req.body)
-        res.status(200).send({success: true})
 
-        var transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-              user: 'natew2949@gmail.com',
-              pass: 'articcatM6'
-            }
-          });
-          
           var mailOptions = {
             from: 'm800mazdarx8@gmail.com',
             to: 'natew2949@gmail.com',
@@ -28,6 +27,8 @@ module.exports = {
               console.log('Email sent: ' + info.response);
             }
           });
+
+          res.status(200).send({success: true})
 
         },
      homes: (req, res) => {
