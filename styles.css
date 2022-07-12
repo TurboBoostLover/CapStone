@@ -312,6 +312,17 @@ svg {
   left: 46%;
 }
 
+#homescreen {
+  width: calc(68px * 3);
+	height: calc(66px * 3);
+  position: absolute;
+  margin: 0 auto ;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  left: 5%;
+  top: 75%;
+}
+
 /* ELEMENTS POSITIONS */
 #building_bottom,
 #window_01,
