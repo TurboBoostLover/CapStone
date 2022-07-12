@@ -415,3 +415,12 @@ svg {
 		0% 		{ transform: translateX(72px); }
 	100% 		{ transform: translateX(-100px); }
 }
+
+.card {
+  background-image: url(https://media.giphy.com/media/sIIhZliB2McAo/giphy.gif);
+  background-size: cover;
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 70%;
+}
